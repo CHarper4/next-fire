@@ -1,0 +1,21 @@
+[debug] [2023-01-28T22:39:23.003Z] ----------------------------------------------------------------------
+[debug] [2023-01-28T22:39:23.005Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\caden\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-01-28T22:39:23.006Z] CLI Version:   11.21.0
+[debug] [2023-01-28T22:39:23.006Z] Platform:      win32
+[debug] [2023-01-28T22:39:23.006Z] Node Version:  v16.14.2
+[debug] [2023-01-28T22:39:23.007Z] Time:          Sat Jan 28 2023 16:39:23 GMT-0600 (Central Standard Time)
+[debug] [2023-01-28T22:39:23.007Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-28T22:39:23.015Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-28T22:39:23.015Z] > authorizing via signed-in user (caden.harper22@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\caden\Documents\React\nextfire-app
+
