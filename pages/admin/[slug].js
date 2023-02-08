@@ -20,7 +20,6 @@ export default function AdminPostEdit(props) {
     );
 }
 
-
 function PostManager() {
     const [preview, setPreview] = useState(false);
 

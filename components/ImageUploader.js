@@ -9,17 +9,17 @@ export default function ImageUploader() {
     const [progress, setProgress] = useState(0);
     const [downloadURL, setDownloadURL] = useState(null);
 
-    //creates a firebase upload task
+    //create a firebase upload task
     const uploadFile = async (e) => {
         //get the file
         const file = Array.from(e.target.files)[0];
         const extension = file.type.split('/')[1];
 
-        //makes reference to the storage bucket location
+        //make reference to the storage bucket location
         const ref = storage.ref(`uploads/${auth.currentUser.uid}/${Date.now()}.${extension}`);
         setUploading(true);
 
-        //starts the upload
+        //start the upload
         const task = ref.put(file);
 
         //listen to updates to upload task
